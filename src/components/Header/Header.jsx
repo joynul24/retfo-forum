@@ -17,7 +17,7 @@ const Header = () => {
           <span className="bg-gray-300 p-2 lg:p-3 rounded-full cursor-pointer">
             <i className="fa-solid fa-flag"></i>
           </span>
-          <button className="btn text-xl font-bold bg-[#797DFC] text-white rounded-full">Sign In</button>
+          <button className="btn text-xl font-bold bg-[#797DFC] text-white rounded-full border-none">Sign In</button>
         </div>
       </div>
 
@@ -26,6 +26,11 @@ const Header = () => {
         <div className="text-white space-y-5 mb-10 lg:mb-0">
          <h2 className="text-2xl  lg:text-6xl font-black">Welcome to the <br /> <span className="text-[#797DFC]">ReTro</span> Forum</h2>
          <p className="text-xl font-medium opacity-70">Share your favorite opinion and win and wp <br /> forum coffee mug!</p>
+         {/* Search */}
+         <div className="flex justify-between bg-white p-2 rounded-full">
+           <input className="rounded-full pl-2 text-black outline-none font-medium" type="text" placeholder="Search here anything" />
+           <button className="btn text-xl font-bold bg-[#797DFC] text-white rounded-full border-none">Search</button>
+         </div>
         </div>
         {/*  */}
         <div className="flex gap-14 bg-white p-5 lg:p-12 rounded-3xl lg:text-2xl font-medium text-[#12132DCC]">
@@ -42,6 +47,11 @@ const Header = () => {
                 <p>03</p>
             </div>
         </div>
+      </div>
+
+      <div className="mt-9 text-center">
+                <h2 className="text-4xl font-black">Let’s Discuss</h2>
+                <p className="opacity-70 mt-6">Yes, you can run unit tests and view the results directly within the app. The <br /> integrated testing features allow for a streamlined .</p>
       </div>
 
     </div>
